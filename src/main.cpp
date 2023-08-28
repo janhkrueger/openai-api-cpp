@@ -11,6 +11,7 @@
 #include <stdexcept>
 #include <map>
 #include <vector>
+#include "openai.hpp"
 
 
 int main() {
@@ -22,6 +23,20 @@ int main() {
                 1048576 * 5, 3);
   logger->flush_on(spdlog::level::info);
   logger->info(scriptName + " started");
+
+    openai::start(); // Will use the api key provided by `OPENAI_API_KEY` environment variable
+    // openai::start("your_API_key", "optional_organization"); // Or you can handle it yourself
+
+    auto completion = openai::completion().create(R"({
+        "model": "davinci-002",
+        "prompt": "Say this is a test",
+        "max_tokens": 7,
+        "temperature": 0
+    })"_json); // Using user-defined (raw) string literals
+    std::cout << "Response is:\n" << completion.dump(2) << '\n';
+
+
+
   logger->info(scriptName + " endet");
 
   return 0;
