@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.defaultLanguage": "markdown",
+		"pasteImage.path": "${projectRoot}/attachments",
+		"pasteImage.showFilePathConfirmInputBox": true,
+		"foam.files.ignore": [
+			"**/.vscode/**/*",
+			"**/_layouts/**/*",
+			"**/frameworks/**/*",
+			"**/frameworks/**/*"
+		],
+	}
+}

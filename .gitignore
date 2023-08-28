@@ -1,0 +1,30 @@
+######################
+# Folders
+######################
+\#build
+\#gtest
+\#gtest
+frameworks/*/build/
+frameworks/pistache/build/
+frameworks/pistache/prefix/
+frameworks/*/build/**
+frameworks/*/build/*
+frameworks/*/prefix/
+frameworks/*/*/CMakeFiles/
+frameworks/*/*/include/
+frameworks/*/*/src/
+frameworks/*/thirdparty/
+
+.DS_Store
+bin/*
+
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.d
+*.obj
+
+
+log/batch.log

@@ -1,0 +1,12 @@
+[submodule "frameworks/GoogleTest"]
+	path = frameworks/GoogleTest
+	url = https://gitlab.com/insulae_dev/external-components/googletest.git
+[submodule "frameworks/curlpp"]
+	path = frameworks/curlpp
+	url = https://gitlab.com/insulae_dev/external-components/curlpp.git
+[submodule "frameworks/rapidjson"]
+	path = frameworks/rapidjson
+	url = https://gitlab.com/insulae_dev/external-components/rapidjson.git
+[submodule "frameworks/spdlog"]
+	path = frameworks/spdlog
+	url = https://gitlab.com/insulae_dev/external-components/spdlog.git
