@@ -37,6 +37,13 @@ It is only intended to act as a sample, not as a production ready application.
 make -f build/makefile
 ```
 
+## Set the environment variable with the openai token
+
+```bash
+export OPENAI_API_KEY='sk-abcdefghijklmnopqrstuvwxyz1234567890'
+```
+
+## Run the application
 Then you can run the application with
 
 ```bash
