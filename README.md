@@ -12,6 +12,9 @@ For reading the config value, [jbeder/yaml-cpp](https://github.com/jbeder/yaml-c
 
 The entire project can be build and run inside Visual Studio Code and the shipped dev container.
 
+## Create the dev container
+
+When using Visual Studio Code with the Dev Container Plugin, upon opening the repository the IDE will recognize the devcontainer config under .devcontainer and ask if the repository should restarted and opened in the container. Do this and everything needed to build and run the application will be at hand.
 
 ## Adjust the config file
 
