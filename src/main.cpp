@@ -37,6 +37,7 @@ int main() {
     jQuestion["prompt"] = config["openai"]["prompt"].as<std::string>();
     jQuestion["max_tokens"] = config["openai"]["max_tokens"].as<int>();
     jQuestion["temperature"] = config["openai"]["temperature"].as<int>();
+    logger->info(" Prompt: " + config["openai"]["prompt"].as<std::string>());
   }
   else {
     logger->info("Config parameters not found");
@@ -58,7 +59,6 @@ int main() {
 
   // Output the value and log it
   logger->debug("  Logging Response");
-  std::cout << "Response: " << text << std::endl;
   logger->info("Response: " + text);
 
   logger->info("Endet");

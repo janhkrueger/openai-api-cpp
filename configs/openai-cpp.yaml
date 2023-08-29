@@ -1,7 +1,7 @@
 openai:
   model: davinci-002
-  prompt: Say this is a test
-  max_tokens: 7
+  prompt: Say this is a test.
+  max_tokens: 9
   temperature: 0
 loglevel:
   level: info
