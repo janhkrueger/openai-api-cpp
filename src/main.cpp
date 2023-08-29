@@ -1,21 +1,12 @@
 /* Copyright 2018 Jan H. Krüger */
 #include <unistd.h>
 #include <stdlib.h>     /* atoi */
-#include "spdlog/spdlog.h"
-#include "spdlog/sinks/rotating_file_sink.h"
-#include <cmath>
-#include <iostream>
-#include <string>
-#include <ctime>
-#include <fstream>
-#include <stdexcept>
-#include <map>
-#include <vector>
 #include "openai.hpp"
 #include <yaml-cpp/yaml.h>
+#include "spdlog/spdlog.h"
+#include "spdlog/sinks/rotating_file_sink.h"
 
 using json = nlohmann::json;
-
 
 int main() {
 
