@@ -1,0 +1,19 @@
+{
+    "choices": [
+      {
+        "finish_reason": "length",
+        "index": 0,
+        "logprobs": null,
+        "text": ". I'm gonna say this is"
+      }
+    ],
+    "created": 1693233320,
+    "id": "cmpl-7sXcm407f9pOBDNYs3kVVezbUpHAa",
+    "model": "davinci-002",
+    "object": "text_completion",
+    "usage": {
+      "completion_tokens": 7,
+      "prompt_tokens": 5,
+      "total_tokens": 12
+    }
+  }
