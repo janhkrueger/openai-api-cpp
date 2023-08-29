@@ -9,7 +9,7 @@ CWARNINGS=-Wextra -Wconversion -Wsign-conversion -Wformat-nonliteral -Wstack-pro
 CINCLUDES=-I$(SRC) -I openai/ -I/usr/local/lib/ -I frameworks/rapidjson/include/ -I frameworks/spdlog/include/ -I frameworks/spdlog/include/spdlog/ -I/usr/include -Iinclude
 CLIBS=-Llib -lcurl -lyaml-cpp
 
-EXECUTABLE=$(parm)
+EXECUTABLE=main
 
 SOURCES=$(SRC)/$(EXECUTABLE).cpp
 OBJECTS=$(SOURCES:.cpp=.o)
