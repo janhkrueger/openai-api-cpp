@@ -1,6 +1,3 @@
 [submodule "frameworks/rapidjson"]
 	path = frameworks/rapidjson
 	url = https://gitlab.com/insulae_dev/external-components/rapidjson.git
-[submodule "frameworks/spdlog"]
-	path = frameworks/spdlog
-	url = https://gitlab.com/insulae_dev/external-components/spdlog.git

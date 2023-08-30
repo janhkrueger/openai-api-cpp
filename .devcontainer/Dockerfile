@@ -23,15 +23,6 @@ RUN git clone https://gitlab.com/insulae_dev/external-components/rapidjson/ && \
     make clean && \
     cd .. && \
     cd .. && \
-    git clone https://gitlab.com/insulae_dev/external-components/googletest.git && \
-    cd googletest && \
-    mkdir build && \
-    cd build && \
-    cmake .. -DBUILD_GMOCK=OFF && \
-    make && \
-    make install && \
-    cd .. && \
-    cd .. && \
     git clone https://github.com/jbeder/yaml-cpp.git && \
     cd yaml-cpp && \
     mkdir build && \
