@@ -1,3 +1,0 @@
-[submodule "frameworks/rapidjson"]
-	path = frameworks/rapidjson
-	url = https://gitlab.com/insulae_dev/external-components/rapidjson.git
