@@ -26,6 +26,7 @@ openai:
   prompt: Say this is a test.
   max_tokens: 9
   temperature: 0
+  apikey: sk-YOURKEY
 loglevel:
   level: info
 ```
@@ -38,12 +39,6 @@ It is only intended to act as a sample, not as a production ready application.
 
 ```bash
 make -f build/makefile
-```
-
-## Set the environment variable with the openai token
-
-```bash
-export OPENAI_API_KEY='sk-abcdefghijklmnopqrstuvwxyz1234567890'
 ```
 
 ## Run the application
