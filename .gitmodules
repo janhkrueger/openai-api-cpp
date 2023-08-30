@@ -1,6 +1,3 @@
-[submodule "frameworks/curlpp"]
-	path = frameworks/curlpp
-	url = https://gitlab.com/insulae_dev/external-components/curlpp.git
 [submodule "frameworks/rapidjson"]
 	path = frameworks/rapidjson
 	url = https://gitlab.com/insulae_dev/external-components/rapidjson.git
