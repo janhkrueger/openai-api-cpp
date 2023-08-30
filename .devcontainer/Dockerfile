@@ -11,7 +11,7 @@ RUN apt-get update && \
 
 RUN apt-get -qq -y upgrade
 
-RUN apt-get -y --no-install-recommends -qq install clang clang-tools llvm llvm-runtime libclang-dev libclang-cpp-dev libclang-rt-dev make autoconf build-essential wget ca-certificates gnupg2 cmake make autoconf automake gdb curl libcurl4-openssl-dev libcurl4 software-properties-common libssl-dev gnu-standards git libspdlog-dev jq apt-file docker.io inetutils-ping apt-transport-https ssh dnsutils cron cron-daemon-common logrotate nano
+RUN apt-get -y --no-install-recommends -qq install clang clang-tools llvm llvm-runtime libclang-dev libclang-cpp-dev libclang-rt-dev make autoconf build-essential wget ca-certificates gnupg2 cmake make autoconf automake gdb curl libcurl4-openssl-dev libcurl4 software-properties-common libssl-dev gnu-standards git libspdlog-dev jq apt-file docker.io apt-transport-https ssh
 
 RUN git clone https://gitlab.com/insulae_dev/external-components/rapidjson/ && \
     cd rapidjson/ && \
