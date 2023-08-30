@@ -1,6 +1,3 @@
-[submodule "frameworks/GoogleTest"]
-	path = frameworks/GoogleTest
-	url = https://gitlab.com/insulae_dev/external-components/googletest.git
 [submodule "frameworks/curlpp"]
 	path = frameworks/curlpp
 	url = https://gitlab.com/insulae_dev/external-components/curlpp.git
