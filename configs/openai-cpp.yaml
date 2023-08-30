@@ -3,6 +3,5 @@ openai:
   prompt: Say this is a test.
   max_tokens: 9
   temperature: 0
-  apikey: sk-INSERTYOUKEY
 loglevel:
   level: info
