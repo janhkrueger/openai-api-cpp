@@ -7,7 +7,7 @@ CC=clang++
 CFLAGS=
 CWARNINGS=-Wextra -Wconversion -Wsign-conversion -Wformat-nonliteral -Wstack-protector -Wno-unused-parameter -Wformat=2 -Wformat-security -Winit-self -Wuninitialized -Wswitch-default -Wswitch-enum -Wunused-but-set-parameter -Wunused-parameter -Wunused-but-set-variable -Wfloat-equal -Wshadow -Wunreachable-code
 CINCLUDES=-I$(SRC) -I openai/ -I/usr/local/lib/ -I frameworks/rapidjson/include/ -I frameworks/spdlog/include/ -I frameworks/spdlog/include/spdlog/ -I/usr/include -Iinclude
-CLIBS=-Llib -lcurl -lyaml-cpp
+CLIBS=-Llib -lcurl -lyaml-cpp -lfmt
 
 EXECUTABLE=main
 

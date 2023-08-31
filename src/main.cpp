@@ -22,12 +22,14 @@ int main() {
 
   // Read the parameters from the config file
   logger->debug("  Read parameters");
+  std::string apikey;
   json jQuestion;
   if(config["openai"] && config["openai"]["prompt"] ) {
     jQuestion["model"] = config["openai"]["model"].as<std::string>();
     jQuestion["prompt"] = config["openai"]["prompt"].as<std::string>();
     jQuestion["max_tokens"] = config["openai"]["max_tokens"].as<int>();
     jQuestion["temperature"] = config["openai"]["temperature"].as<int>();
+    apikey = config["openai"]["apikey"].as<std::string>();
     logger->info(" Prompt: " + config["openai"]["prompt"].as<std::string>());
   }
   else {
@@ -36,7 +38,8 @@ int main() {
   }
 
   logger->debug("  Send to OpenAI");
-  openai::start(); // Will use the api key provided by `OPENAI_API_KEY` environment variable
+  openai::start(apikey);
+
 
   // Send the question to OpenAI and store the response
   auto completion = openai::completion().create(jQuestion);
