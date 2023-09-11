@@ -1,5 +1,5 @@
 FROM ubuntu:23.04
-LABEL maintainer="janhkrueger@outlook.com"
+LABEL maintainer="janhkrueger@gmail.com"
 
 RUN TZ=UTC  && \
     export DEBIAN_FRONTEND=noninteractive
